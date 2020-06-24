@@ -60,10 +60,9 @@
 		8B75A5AE24A39C4400FF83F8 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				8B75A5CB24A3AC6100FF83F8 /* Views */,
 				8B75A5AF24A39C4400FF83F8 /* AppDelegate.swift */,
 				8B75A5B124A39C4400FF83F8 /* SceneDelegate.swift */,
-				8B75A5C724A3A79200FF83F8 /* GFButton.swift */,
-				8B75A5C924A3AA7400FF83F8 /* GFTextField.swift */,
 				8B75A5C324A3A0F500FF83F8 /* SearchVC.swift */,
 				8B75A5C524A3A13100FF83F8 /* FavoritesListVC.swift */,
 				8B75A5B824A39C4A00FF83F8 /* Assets.xcassets */,
@@ -71,6 +70,15 @@
 				8B75A5BD24A39C4A00FF83F8 /* Info.plist */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		8B75A5CB24A3AC6100FF83F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B75A5C724A3A79200FF83F8 /* GFButton.swift */,
+				8B75A5C924A3AA7400FF83F8 /* GFTextField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
