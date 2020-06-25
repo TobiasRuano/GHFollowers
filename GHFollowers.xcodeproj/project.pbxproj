@@ -27,6 +27,7 @@
 		8BAEC28524A3FE040002844F /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAEC28424A3FE040002844F /* ErrorMessage.swift */; };
 		8BD4E04824A4F10800BDD482 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E04724A4F10800BDD482 /* FollowerCell.swift */; };
 		8BD4E04A24A4F18800BDD482 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E04924A4F18800BDD482 /* GFAvatarImageView.swift */; };
+		8BD4E04C24A50DCB00BDD482 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E04B24A50DCB00BDD482 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		8BAEC28424A3FE040002844F /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		8BD4E04724A4F10800BDD482 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		8BD4E04924A4F18800BDD482 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		8BD4E04B24A50DCB00BDD482 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				8BAEC28424A3FE040002844F /* ErrorMessage.swift */,
+				8BD4E04B24A50DCB00BDD482 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				8B3E32CA24A3B81600BBD684 /* FollowerListVC.swift in Sources */,
 				8B75A5B024A39C4400FF83F8 /* AppDelegate.swift in Sources */,
 				8BAEC28524A3FE040002844F /* ErrorMessage.swift in Sources */,
+				8BD4E04C24A50DCB00BDD482 /* UIHelper.swift in Sources */,
 				8BAEC28224A3EE260002844F /* NetworkManager.swift in Sources */,
 				8B75A5B224A39C4400FF83F8 /* SceneDelegate.swift in Sources */,
 				8BAEC27B24A3E8270002844F /* GFContainerView.swift in Sources */,
