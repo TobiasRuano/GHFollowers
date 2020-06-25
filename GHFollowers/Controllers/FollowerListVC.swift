@@ -40,9 +40,11 @@ class FollowerListVC: UIViewController {
     }
     
     func getFollowers(username: String, page: Int) {
+        showLoadingView()
         NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
             guard let self = self else { return }
             
+            self.dismissLoadingView()
             switch result {
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Bad Stuff happened", message: error.rawValue, buttonTitle: "Ok")
@@ -50,7 +52,6 @@ class FollowerListVC: UIViewController {
                 if followers.count < 100 {
                     self.hasMoreFollowers = false
                 }
-                print("Followers.count = \(followers.count)")
                 self.followers.append(contentsOf: followers)
                 self.updateData()
             }
