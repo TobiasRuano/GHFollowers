@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Tobias Ruano on 24/06/2020.
+//  Created by Tobias Ruano on 26/06/2020.
 //  Copyright © 2020 Tobias Ruano. All rights reserved.
 //
 
