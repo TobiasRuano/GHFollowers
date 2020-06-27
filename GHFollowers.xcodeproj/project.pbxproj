@@ -37,6 +37,8 @@
 		8BD4E06224A6882400BDD482 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E06124A6882400BDD482 /* GFItemInfoVC.swift */; };
 		8BD4E06424A69C6E00BDD482 /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E06324A69C6E00BDD482 /* GFRepoItemVC.swift */; };
 		8BD4E06624A69E4400BDD482 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E06524A69E4400BDD482 /* GFFollowerItemVC.swift */; };
+		8BD4E06924A7B22D00BDD482 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E06824A7B22D00BDD482 /* Date+Ext.swift */; };
+		8BD4E06B24A7B24800BDD482 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4E06A24A7B24800BDD482 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		8BD4E06124A6882400BDD482 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		8BD4E06324A69C6E00BDD482 /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		8BD4E06524A69E4400BDD482 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
+		8BD4E06824A7B22D00BDD482 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		8BD4E06A24A7B24800BDD482 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				8BAEC27624A3C93F0002844F /* UIViewController+Ext.swift */,
+				8BD4E06824A7B22D00BDD482 /* Date+Ext.swift */,
+				8BD4E06A24A7B24800BDD482 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -331,11 +337,13 @@
 				8BD4E05624A6417400BDD482 /* UserInfoVC.swift in Sources */,
 				8BAEC27E24A3EA9A0002844F /* Follower.swift in Sources */,
 				8B3E32CC24A3BDA600BBD684 /* GFTitleLabel.swift in Sources */,
+				8BD4E06B24A7B24800BDD482 /* String+Ext.swift in Sources */,
 				8B3E32CA24A3B81600BBD684 /* FollowerListVC.swift in Sources */,
 				8BD4E06224A6882400BDD482 /* GFItemInfoVC.swift in Sources */,
 				8BD4E06624A69E4400BDD482 /* GFFollowerItemVC.swift in Sources */,
 				8B75A5B024A39C4400FF83F8 /* AppDelegate.swift in Sources */,
 				8BD4E04C24A50DCB00BDD482 /* UIHelper.swift in Sources */,
+				8BD4E06924A7B22D00BDD482 /* Date+Ext.swift in Sources */,
 				8BAEC28224A3EE260002844F /* NetworkManager.swift in Sources */,
 				8B75A5B224A39C4400FF83F8 /* SceneDelegate.swift in Sources */,
 				8BD4E06024A66B5000BDD482 /* GFItemInfoView.swift in Sources */,
