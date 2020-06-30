@@ -47,7 +47,7 @@ class GFEmptyStateView: UIView {
     
     func configureLogoImageView() {
         addSubview(logoImageView)
-        logoImageView.image = UIImage(named: "empty-state-logo")
+        logoImageView.image = Images.emptyStateLogo
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
