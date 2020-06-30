@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowsScene
         window?.rootViewController = GFTabBarController()
         window?.makeKeyAndVisible()
+        
         configureNavigationBar()
     }
     
